@@ -14,7 +14,7 @@ const ChartScreen = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchWeatherDataAsync(cityList));    
-  }, []);  
+  }, [cityList, dispatch]);  
 
   const restoreState = () => {    
     dispatch(resetState());
