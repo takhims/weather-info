@@ -1,0 +1,17 @@
+.citytab {
+    display: flex;
+    width: 100%;
+    border: 2px solid steelblue;
+    padding: 5px;
+    font-family: Arial;
+    border-radius: 5px;
+    text-align: left;
+    align-items: center;
+    margin-top: 5px;    
+}
+
+.icon {
+    margin-left: auto;
+    cursor: pointer
+}
+
